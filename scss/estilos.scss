@@ -1,0 +1,297 @@
+@import "fuentes";
+@import "variables";
+
+
+/*media querie*/
+@media (max-width: 576px){       /*mobile*/
+    .targets{
+        margin-left: 9px;
+    }
+    .contenedorpadreB{
+        margin-left: 58px;
+    }
+    .contenedorpadreC{
+        margin-left: 16px;
+    }
+    .logo {
+        width: 250px;
+    }
+    .targetsB{
+        margin-left: 29px;
+    }
+    .targetsC{
+        margin-left: 29px;
+    }
+    .targetsA{
+        margin-left: 29px;
+    }
+    .targetsContacto{
+        margin-left: 29px;
+    }
+    .targetsP{
+        margin-left: 20px;
+    }
+    .contenedorpadreA{
+        margin-left: -14px;
+    }
+    #cuadroProducto{
+        margin-left: 40px;
+    }
+}
+
+
+@media (min-width: 414px) and (max-width: 768px){    /*tablet*/
+    #imagenes{
+        margin-left: 200px;
+    }
+    .banner{
+        max-height: 50px;
+        height: 20vh;
+    }
+    .contenedorpadreB{
+        margin-left: 58px;
+    }
+}
+
+
+@media (max-width: 812px){     /*mobil horizontal*/
+    .contenedorpadreA{
+        margin-right: 197px;
+    }
+}
+
+
+/* fin media querie*/
+
+
+/*header*/
+
+.bgHColor{
+    background-color: $background--color-head;
+}
+#siteHeader{
+    font-family: $fuente;
+    a{
+        color: white;
+    }
+}
+/* fin header*/
+
+
+/*cuerpo*/
+.bodyAll{
+    background-image: $background--color-body;
+    background-size: cover;
+}
+/*fin cuerpo*/
+
+
+/*banner*/
+.banner{
+	background-image: url(../media/banner/2.jpg);
+	background-position: center;
+	min-height: 600px;
+	height: 50vh;
+    
+}
+.textoAlto{
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 1rem;
+	margin-top: 7px;
+    line-height: 1.50em;
+    p{
+        color: blanchedalmond;
+	font-size: 1em;
+	text-align: center;
+    }
+}
+/*fin banner*/
+
+
+/*carrusel*/
+.carousel-indicators li{
+    width: 12px;
+    height: 10px;
+    margin-right: 9px;
+    margin-left: 14px;
+    background-color: rgb(2, 2, 2);
+}
+.arrow img{
+    width: 45px;
+}
+/*fin carrusel*/
+
+
+/*maquinas*/
+#modelosIndex a{
+    text-decoration: none;
+    img{
+        width: 275px;
+    }
+}
+#modelosIndex h4{
+    cursor: pointer;
+    font-family: $fuente;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgb(245, 13, 13);
+    background-color: black;
+    &:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(5, 5, 5);
+    }
+}
+/*fin maquinas*/
+
+
+/*imagenes*/
+#imagenes img{
+    width: 300px;
+    border-radius: 3px;
+
+}
+/* fin imagenes*/
+
+
+/*drop*/
+.tituloDrop {
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 2rem;
+	margin-top: 7px;
+    line-height: 1.50em;
+}
+.dropBground {
+    background-image: url(../media/fondodrop/fatality.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+    p{
+        color: rgb(255, 254, 254);
+
+    }
+}
+/*fin drop*/
+
+
+/*footer*/
+#redesSociales li{
+    list-style: none;
+    display: inline;
+        a{
+        font-family: $fuente;
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        list-style: none;
+            img{
+             width: 50px;
+        }
+    }
+}
+/*fin footer*/
+
+/*botton*/
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+.navbotton{
+    background-color: #ff0204;
+    border: 2px solid white;
+}
+/*fin botton*/
+/*global bartop,comando,arcade*/
+#textGlobal h3{
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 3rem;
+	margin-top: 7px;
+}
+#textGlobal p{
+    font-family: $fuente;
+    color: blanchedalmond;
+	font-size: 1em;
+	text-align: center;
+}
+#galeria div a{
+    color: black;
+    font-family: $fuente;
+}
+/*fin global bartop,comando,arcade*/
+
+
+/*inicio bartop*/
+.contenedorpadreB img{
+    max-height: 300px;
+    max-width: 300px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	border: 3px solid white;
+    margin-top: 100px;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
+    }
+}
+/*final bartop*/
+
+
+/*inicio comando*/
+.contenedorpadreC img{
+	max-height: 400px;
+    max-width: 400px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	border: 3px solid white;
+    margin-top: 100px;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
+    }
+}
+/*final comando*/
+
+
+/*inicio maquinas arcade*/
+.contenedorpadreA img{
+	max-height: 400px;
+    max-width: 400px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	margin: 100px;
+	border: 3px solid white;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
+    }
+}
+/*final maquinas arcade*/
+
+
+/*fielset*/
+.form{
+    max-width: 500px;
+    border: 3px solid white;
+}
+.form__label{
+    font-family: $fuente;
+    color: white;
+}
+.form__imput--boton:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #fff;
+}
+.comentario{
+    resize: none;
+}
+/*final fielset*/

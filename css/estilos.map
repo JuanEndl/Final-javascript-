@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"form{\r\n    border: 5px solid rgb(252, 248, 248);\r\n}\r\n.rellenar > p{\r\n\tfont-size: 50px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;CACvC;;;AACD,AAAA,SAAS,GAAG,CAAC,CAAA;EACZ,SAAS,EAAE,IAAI;CACf"
+}

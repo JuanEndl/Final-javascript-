@@ -1,0 +1,92 @@
+
+[  
+        {
+            "idProduc" : "1", 
+            "quantity" : 1,
+            "category" : "Muebles",
+            "title" : "Arcade fichin", 
+            "description" : "Clásica máquinas arcade de los 80 90, Maquina multijuegos para 2 jugadores, 6 botones + los de selec y star, tamaño a madida del cliente", 
+            "price" : 78000, 
+            "img" : "media/imagenesproducto/21.jpg" 
+        },
+
+        {
+            "idProduc" : "2", 
+            "quantity" : 1,
+            "category" : "Muebles", 
+            "title" : "Comando Arcade", 
+            "description" : "Máquina multijuegos económica para 2 personas con 6 botones + selec y estar, su peso es de 6 kg, medidas 70cm x 45cm, es excelente para llevar y jugar con amigos", 
+            "price" : 45000, 
+            "img" : "media/imagenesproducto/22.jpg" 
+        },
+
+        {
+            "idProduc" : "3", 
+            "quantity" : 1,
+            "category" : "Muebles", 
+            "title" : "Bartop Multijuegos", 
+            "description" : "Se parece a un arcade tradicional pero más liviano y pequeño, multi-consola para 2 jugadores viene con 6 botones + selec y star", 
+            "price" : 55700, 
+            "img" : "media/imagenesproducto/23.jpg" 
+        },
+
+        {
+            "idProduc" : "4", 
+            "quantity" : 1,
+            "category" : "Botonera", 
+            "title" : "Botonera Modelo 1", 
+            "description" : "descriKIT ARCADE DIY USB con encoder Zero Delay, palanca-joystick bola de 4/8 posiciones metálicas, 8 botones push, completo con cables, compatible con PC, Raspberry, Mame, RetroPi.", 
+            "price" : 8500, 
+            "img" : "media/imagenesproducto/4.jpg" 
+        },
+
+        {
+            "idProduc" : "5", 
+            "quantity" : 1,
+            "category" : "Botonera", 
+            "title" : "Botonera Modelo 2", 
+            "description" : "KIT ARCADE DIY USB con encoder Zero Delay, palanca-joystick bola de 4/8 posiciones metálicas, 8 botones push, completo con cables, compatible con PC, Raspberry, Mame, RetroPi", 
+            "price" : 8.500, 
+            "img" : "media/imagenesproducto/5.jpg" 
+        },
+
+        {
+            "idProduc" : "6", 
+            "quantity" : 1,
+            "category" : "Botonera", 
+            "title" : "Botonera Modelo 3", 
+            "description" : "KIT ARCADE DIY USB con encoder Zero Delay, palanca-joystick bola de 4/8 posiciones metálicas, 8 botones push, completo con cables, compatible con PC, Raspberry, Mame, RetroPi", 
+            "price" : 8500, 
+            "img" : "media/imagenesproducto/2.jpg" 
+        },
+
+        {
+            "idProduc" : "7", 
+            "quantity" : 1,
+            "category" : "Botonera", 
+            "title" : "Botones Genericos", 
+            "description" : "Boton pulsador arcade t/sanwa 30mm  pulsador para arcade.", 
+            "price" : 3000, 
+            "img" : "media/imagenesproducto/8.jpg" 
+        },
+
+        {
+            "idProduc" : "8", 
+            "quantity" : 1,
+            "category" : "Joysticks", 
+            "title" : "Joysticks", 
+            "description" : "Control preciso Este mando combina funciones revolucionarias mientras conserva precisión, comodidad y exactitud en cada movimiento. Gracias a su ergonomía especialmente pensada para la posición de tu mano, podés pasar horas jugando con total confort.", 
+            "price" : 2000, 
+            "img" : "media/imagenesproducto/18.jpg" 
+        },
+        
+        {
+            "idProduc" : "9", 
+            "quantity" : 1,
+            "category" : "Muebles", 
+            "title" : "Mueble Bartop", 
+            "description" : "Incluye todos los tornillos necesarios.Partes Numeradas para un Facil armado.Terminacion de Calidad.Agujeros de 30mm para rapidez en el ensamblado.", 
+            "price" : 4250, 
+            "img" : "media/imagenesproducto/15.jpg" 
+        } 
+]

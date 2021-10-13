@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap");
+/*mapa*/
+/*mapa*/
+/*color body*/
+/*color body*/
+/*media querie*/
+@media (max-width: 576px) {
+  /*mobile*/
+  .targets {
+    margin-left: 9px;
+  }
+  .contenedorpadreB {
+    margin-left: 58px;
+  }
+  .contenedorpadreC {
+    margin-left: 16px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .targetsB {
+    margin-left: 29px;
+  }
+  .targetsC {
+    margin-left: 29px;
+  }
+  .targetsA {
+    margin-left: 29px;
+  }
+  .targetsContacto {
+    margin-left: 29px;
+  }
+  .targetsP {
+    margin-left: 20px;
+  }
+  .contenedorpadreA {
+    margin-left: -14px;
+  }
+  #cuadroProducto {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+  /*tablet*/
+  #imagenes {
+    margin-left: 200px;
+  }
+  .banner {
+    max-height: 50px;
+    height: 20vh;
+  }
+  .contenedorpadreB {
+    margin-left: 58px;
+  }
+}
+
+@media (max-width: 812px) {
+  /*mobil horizontal*/
+  .contenedorpadreA {
+    margin-right: 197px;
+  }
+}
+
+/* fin media querie*/
+/*header*/
+.bgHColor {
+  background-color: #313131;
+}
+
+#siteHeader {
+  font-family: "Raleway", sans-serif;
+}
+
+#siteHeader a {
+  color: white;
+}
+
+.carrito {
+  width: 7vh;
+}
+
+/* fin header*/
+/*cuerpo*/
+.bodyAll {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#0e0109), color-stop(#1c0212), color-stop(#2b031b), color-stop(#390424), color-stop(#47052d), color-stop(#3b0426), color-stop(#2f031e), color-stop(#240317), color-stop(#18020f), color-stop(#0c0108), to(black));
+  background-image: linear-gradient(to bottom, black, #0e0109, #1c0212, #2b031b, #390424, #47052d, #3b0426, #2f031e, #240317, #18020f, #0c0108, black);
+  background-size: cover;
+}
+
+/*fin cuerpo*/
+/*banner*/
+.banner {
+  background-image: url(../media/banner/2.jpg);
+  background-position: center;
+  min-height: 600px;
+  height: 50vh;
+}
+
+.textoAlto {
+  font-family: "Raleway", sans-serif;
+  color: #f0efef;
+  font-size: 1rem;
+  margin-top: 7px;
+  line-height: 1.50em;
+}
+
+.textoAlto p {
+  color: blanchedalmond;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*fin banner*/
+/*carrusel*/
+.carousel-indicators li {
+  width: 12px;
+  height: 10px;
+  margin-right: 9px;
+  margin-left: 14px;
+  background-color: #020202;
+}
+
+.arrow img {
+  width: 45px;
+}
+
+/*fin carrusel*/
+/*maquinas*/
+#modelosIndex a {
+  text-decoration: none;
+}
+
+#modelosIndex a img {
+  width: 275px;
+}
+
+#modelosIndex h4 {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  border: 1px solid #f50d0d;
+  background-color: black;
+}
+
+#modelosIndex h4:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #050505;
+}
+
+/*fin maquinas*/
+/*imagenes*/
+#imagenes img {
+  width: 300px;
+  border-radius: 3px;
+}
+
+/* fin imagenes*/
+/*drop*/
+.tituloDrop {
+  font-family: "Raleway", sans-serif;
+  color: #f0efef;
+  font-size: 2rem;
+  margin-top: 7px;
+  line-height: 1.50em;
+}
+
+.dropBground {
+  background-image: url(../media/fondodrop/fatality.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid white;
+}
+
+.dropBground p {
+  color: #fffefe;
+}
+
+/*fin drop*/
+/*footer*/
+#redesSociales li {
+  list-style: none;
+  display: inline;
+}
+
+#redesSociales li a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  list-style: none;
+}
+
+#redesSociales li a img {
+  width: 50px;
+}
+
+/*fin footer*/
+/*botton*/
+.btn.focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbotton {
+  background-color: #ff0204;
+  border: 2px solid white;
+}
+
+/*fin botton*/
+/*global bartop,comando,arcade*/
+#textGlobal h3 {
+  font-family: "Raleway", sans-serif;
+  color: #f0efef;
+  font-size: 3rem;
+  margin-top: 7px;
+}
+
+#textGlobal p {
+  font-family: "Raleway", sans-serif;
+  color: blanchedalmond;
+  font-size: 1em;
+  text-align: center;
+}
+
+#galeria div a {
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+/*fin global bartop,comando,arcade*/
+/*inicio bartop*/
+.contenedorpadreB img {
+  max-height: 300px;
+  max-width: 300px;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  border: 3px solid white;
+  margin-top: 100px;
+}
+
+.contenedorpadreB img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+}
+
+/*final bartop*/
+/*inicio comando*/
+.contenedorpadreC img {
+  max-height: 400px;
+  max-width: 400px;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  border: 3px solid white;
+  margin-top: 100px;
+}
+
+.contenedorpadreC img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+}
+
+/*final comando*/
+/*inicio maquinas arcade*/
+.contenedorpadreA img {
+  max-height: 400px;
+  max-width: 400px;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  margin: 100px;
+  border: 3px solid white;
+}
+
+.contenedorpadreA img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+}
+
+/*final maquinas arcade*/
+/*carrito*/
+tr {
+  color: white;
+}
+.img-width{
+  max-width: 50px;
+}
+
+/*final carrito*/
+
+
+
+/*form*/
+.form-check-label {
+  font-family: "Raleway", sans-serif;
+  color: blanchedalmond;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+#exampleModalLabel{
+  color: black;
+}
+/*fin form*/
